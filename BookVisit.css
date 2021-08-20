@@ -1,0 +1,1845 @@
+
+#booking-widget.theme-1 .cd-tabs-navigation li.selected a {
+    background: rgb(51,50,48,0.9);
+    border-radius: 0 0 0 0;
+	border-color: #fff;
+    box-shadow: 0 0 0;
+    color: #fff;
+}
+#booking-widget.theme-1 .cd-tabs-navigation li:first-child a {
+    border-radius: 0 0 0 0;
+}
+#booking-widget.theme-1 .cd-tabs-navigation li a {
+	position: relative;
+	margin-bottom: 0px;
+    align-items: center;
+    background: rgb(51,50,48,0.9);
+    color: #fff;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 49px;
+    justify-content: center;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+	border: 0px #fff;
+}
+#booking-widget ul li a {
+    cursor: pointer;
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+a {
+    color: #be9947;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+#booking-widget ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Open Sans, sans-serif, Sans-Serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+#booking-widget.theme-1 .cd-tabs-navigation li:last-child a {
+    border-radius: 0 0 0 0;
+}
+#booking-widget.theme-1 .cd-tabs-navigation li a {
+    background: rgb(25,23,16,0.9);
+    color: #fff;
+    display: inline-grid;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+#booking-widget ul li a {
+    cursor: pointer;
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+#booking-widget ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Open Sans, sans-serif, Sans-Serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+	  font-family: 'Public Sans', sans-serif;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root { 
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-weight: 400;
+    text-align: left;
+    color: #333;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+element.style {
+}
+#booking-widget.theme-1 {
+	position: relative;
+    max-width: 1903px;
+	max-height: 10.5rem;
+}
+@media (min-width: 992px) {
+#booking-widget.theme-1, #booking-widget.theme-2 {
+    bottom: -50px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+@media (min-width: 768px) {
+#booking-widget.theme-1, #booking-widget.theme-2 {
+    bottom: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+#booking-widget.theme-1, #booking-widget.theme-2 {
+    width: 120%;
+}
+#booking-widget.theme-1 {
+	    width: 120%;
+}
+#booking-widget {
+    display: flex;
+	align-items: center;
+    flex-direction: column;
+    position: absolute;
+	width: 1903px;
+	top: 696px;
+    z-index: 10;
+}
+#booking-widget {
+    animation: fadeInUp 1s both 1s;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: inline-flex;
+}
+body {
+    background-color: #fff;
+    color: #333;
+  font-family: 'Public Sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	  font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+html {
+    font-size: 100%;
+}
+html {
+  font-family: 'Public Sans', sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+#booking-widget.theme-1 .cd-tabs-content {
+    background: rgb(51,50,48,0.9);
+	padding-left: 10px;
+    position: relative;
+	border-color: rgb(255,243,222,0.9);
+	border-width: 0px;
+	height: 10rem;
+	}
+}
+#booking-widget .cd-tabs-content {
+
+    display: inline;
+}
+#booking-widget ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding-left: 0;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+ul {
+    display: inline-flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Open Sans, sans-serif, Sans-Serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	  font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+html {
+    font-size: 100%;
+}
+html {
+  font-family: 'Public Sans', sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+
+}
+	#booking-widget.theme-1 .bv-section-inner > .bv-item.bv-item-search .bv-gui-btn {
+    border: 1px solid transparent;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 15%);
+}
+#booking-widget.theme-1 .bv-section-inner > .bv-item.bv-item-participants > .bv-gui-select > span, #booking-widget.theme-1 .bv-section-inner > .bv-item label.bv-gui-text > span, #booking-widget.theme-1 .bv-section-inner > .bv-item label.bv-gui-select > span, #booking-widget.theme-1 .bv-section-inner > .bv-item.bv-item-search .bv-gui-btn {
+	border: 1px solid #fff;
+    padding: 14px 12px;
+}
+#booking-widget .bv-widget .bv-gui-btn {
+	background: rgb(25,23,16,0.9);
+    border-color: #fff;
+	width: 15.7rem;
+	height: auto;
+    border-radius: 0;
+    color: #fff !important;
+  font-family: 'Public Sans', sans-serif;
+}
+#booking-widget .bv-widget .bv-lbl-title, #booking-widget .bv-widget label.bv-gui-text > span, #booking-widget .bv-widget label.bv-gui-select > span, #booking-widget .bv-widget .bv-gui-btn {
+  font-family: 'Public Sans', sans-serif;
+}
+#booking-widget ul li a {
+    cursor: pointer;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: inline;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #fff;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+  font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    text-transform: initial;
+    < -- webkit-appearance: none; -- >
+    <-webkit-font-smoothing: antialiased;>
+    <-webkit-tap-highlight-color: transparent;>
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+  font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+  font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    display: block;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn, .bv-Standard1Column .bv-widget .bv-gui-select>span, .bv-Standard1Column .bv-widget input.bv-gui-text, .bv-Standard1Column .bv-widget label.bv-gui-text input, .bv-Standard1Column .bv-widget label.bv-gui-text>span, .bv-Standard1Column .bv-widget select {
+    padding: 10px 15px;
+}
+.bv-Standard1Column .bv-widget .bv-gui-btn {
+    background: -webkit-linear-gradient(top,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 50%,#1E1E1E 50%,#1E1E1E 100%);
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    line-height: normal!important;
+    text-align: center;
+    text-decoration: none!important;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: 700;
+    color: #fff!important;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: initial;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget a {
+    -webkit-transition: none;
+    transition: none;
+    color: #369;
+    text-decoration: none;
+}
+.bv-Standard1Column .bv-widget a, .bv-Standard1Column .bv-widget li, .bv-Standard1Column .bv-widget p, .bv-Standard1Column .bv-widget ul {
+    font-family: Arial;
+    font-size: 14px;
+    color: currentColor;
+    line-height: 1.3;
+    margin: 0;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    color: #be9947;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#booking-widget.theme-1 .bv-section-inner > .bv-item {
+    float: left;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	width: 22rem;
+	padding: 27px 27px 0px 38px ;
+	justify-content: center;
+}
+#booking-widget .bv-widget .bv-widget-inner {
+	display: inline;
+    background: transparent;
+    font-family: inherit;
+    color: transparent;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget .bv-widget-inner {
+    padding: 0;
+    background: 0 0;
+    border-radius: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+.bv-Standard1Column .bv-widget {
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3;
+    letter-spacing: normal;
+}
+user agent stylesheet
+li {
+    text-align: center;
+}
+#booking-widget ul {
+	border: 0px solid #fff;
+    display: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+body {
+    background-color: #00FF64;
+    color: #E000FF;
+    font-family: Open Sans, sans-serif, Sans-Serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+html {
+    font-size: 100%;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#booking-widget .bv-widget .bv-gui-btn:before {
+    background: rgb, 0,0,0,0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: relative;
+    top: 0;
+    width: auto;
+    transition: opacity 0.2s linear;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bv-Standard1Column .bv-widget, .bv-Standard1Column .bv-widget *, .bv-Standard1Column .bv-widget :after, .bv-Standard1Column .bv-widget :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
